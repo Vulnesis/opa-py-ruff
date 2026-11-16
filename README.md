@@ -1,5 +1,7 @@
 # opa-py-ruff
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/opa-py-ruff)
+
 Vulnetix OPA/Rego SAST rules — clean-room implementation of [Ruff](https://github.com/astral-sh/ruff) Python linting rules.
 
 ## Overview

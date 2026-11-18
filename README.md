@@ -1,6 +1,6 @@
 # opa-py-ruff
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/opa-py-ruff)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnesis/opa-py-ruff)
 
 Vulnesis OPA/Rego SAST rules — clean-room implementation of [Ruff](https://github.com/astral-sh/ruff) Python linting rules.
 
@@ -34,10 +34,10 @@ metadata := {
 
 ```bash
 # Scan with ruff rules only (disable built-in Vulnesis rules)
-vulnesis scan --rule Vulnesis/opa-py-ruff --disable-default-rules
+vulnetix scan --rule Vulnesis/opa-py-ruff --disable-default-rules
 
 # Scan with both built-in and ruff rules
-vulnesis scan --rule Vulnesis/opa-py-ruff
+vulnetix scan --rule Vulnesis/opa-py-ruff
 ```
 
 ## Rule Coverage

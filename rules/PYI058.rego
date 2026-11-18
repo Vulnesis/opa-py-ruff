@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Ruff rule PYI058 (flake8-pyi): generator return from iter method
-# Clean-room Rego implementation for the Vulnetix CLI input model.
+# Clean-room Rego implementation for the Vulnesis CLI input model.
 
 package vulnetix.rules.ruff_pyi058
 

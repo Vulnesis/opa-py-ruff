@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Ruff rule RUF019 (Ruff-specific rules): unnecessary key check
-# Clean-room Rego implementation for the Vulnetix CLI input model.
+# Clean-room Rego implementation for the Vulnesis CLI input model.
 
 package vulnetix.rules.ruff_ruf019
 

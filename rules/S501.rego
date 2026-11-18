@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Ruff rule S501 (flake8-bandit): request with no cert validation
-# Clean-room Rego implementation for the Vulnetix CLI input model.
+# Clean-room Rego implementation for the Vulnesis CLI input model.
 
 package vulnetix.rules.ruff_s501
 

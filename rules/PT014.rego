@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: Apache-2.0
 # Ruff rule PT014 (flake8-pytest-style): pytest duplicate parametrize test cases
-# Clean-room Rego implementation for the Vulnetix CLI input model.
+# Clean-room Rego implementation for the Vulnesis CLI input model.
 
 package vulnetix.rules.ruff_pt014
 

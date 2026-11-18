@@ -1,12 +1,12 @@
 # opa-py-ruff
 
-[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnetix/opa-py-ruff)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/Vulnesis/opa-py-ruff)
 
-Vulnetix OPA/Rego SAST rules — clean-room implementation of [Ruff](https://github.com/astral-sh/ruff) Python linting rules.
+Vulnesis OPA/Rego SAST rules — clean-room implementation of [Ruff](https://github.com/astral-sh/ruff) Python linting rules.
 
 ## Overview
 
-This repository contains [Open Policy Agent](https://www.openpolicyagent.org/) Rego rules for the [Vulnetix CLI](https://github.com/Vulnetix/cli) SAST scanner. Each rule is a clean-room implementation of a [Ruff](https://docs.astral.sh/ruff/rules/) rule, preserving the original rule metadata (code, linter, summary, fix availability).
+This repository contains [Open Policy Agent](https://www.openpolicyagent.org/) Rego rules for the [Vulnesis CLI](https://github.com/Vulnesis/cli) SAST scanner. Each rule is a clean-room implementation of a [Ruff](https://docs.astral.sh/ruff/rules/) rule, preserving the original rule metadata (code, linter, summary, fix availability).
 
 - **956 rules** covering all Ruff rule codes
 - **478 rules** with regex/pattern-based detection
@@ -33,11 +33,11 @@ metadata := {
 ## Usage
 
 ```bash
-# Scan with ruff rules only (disable built-in Vulnetix rules)
-vulnetix scan --rule Vulnetix/opa-py-ruff --disable-default-rules
+# Scan with ruff rules only (disable built-in Vulnesis rules)
+vulnesis scan --rule Vulnesis/opa-py-ruff --disable-default-rules
 
 # Scan with both built-in and ruff rules
-vulnetix scan --rule Vulnetix/opa-py-ruff
+vulnesis scan --rule Vulnesis/opa-py-ruff
 ```
 
 ## Rule Coverage
